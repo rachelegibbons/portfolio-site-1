@@ -1,0 +1,138 @@
+/* Zero-out so the body isn’t messing with things. */*/
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0px;
+  font-size: 16px;
+}
+
+/* Setup images to be flexible filling the space available. */
+img {
+	max-width: 100%;
+}
+
+/* Setup my wrapper so I can see it */
+.container {
+	/*outline: 1px solid red;
+	background-color: pink;*/
+}
+
+.banner {
+  font-family: 'Rubik', sans-serif;
+  padding-left: 20px;
+}
+
+.banner h1 {
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+.banner ul {
+  padding: 0px;
+}
+
+.banner li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 20px;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.banner li a {
+  color: black;
+  text-decoration: none;
+}
+
+.banner li a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  height: 60vh;
+  padding-top: 100px;
+  font-family: 'Cormorant', serif;
+  padding-left: 20px;
+  margin-bottom: -15px;
+}
+
+.intro h2 {
+  font-weight: 400;
+  font-size: 2.197em;
+}
+
+.projects ul {
+  padding: 0px;
+}
+
+.projects li {
+  list-style: none;
+  display: block;
+  padding: 20px 20px 200px 20px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.3em;
+}
+
+.projectOne {
+  background-color: #24324C;
+}
+
+.projectTwo {
+  background-color: #66A2CC;
+}
+
+.projectThree {
+  background-color: #F05942;
+}
+
+.projectFour {
+  background-color: #A9BCC6;
+}
+
+.projectFive {
+  background-color: #945B38;
+}
+
+.projectSix {
+  background-color: #24324C;
+}
+
+.about {
+  padding: 20px 20px;
+}
+
+.about p {
+  font-family: 'Cormorant', sans-serif;
+  font-size: 1.69em;
+}
+
+#contact {
+  text-align: left;
+  border-top: 1px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#contact ul {
+  padding: 0px;
+}
+
+#contact li {
+  list-style: none;
+  display: inline;
+  padding-right: 10px;
+  font-size: 1em;
+  font-family: 'Rubik', sans-serif;
+}
+
+#contact li a {
+  color: black;
+  text-decoration: none;
+}
+
+#contact li a:hover {
+  text-decoration: underline;
+}
