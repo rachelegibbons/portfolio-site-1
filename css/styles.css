@@ -207,7 +207,7 @@ img {
 .projectDetail {
 	background-color: #34496f;
 	color: white;
-	padding-top: 100px;
+	padding-top: 60px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 5px;
@@ -234,8 +234,13 @@ img {
 	font-family: 'Cormorant', serif;
 	font-weight: 300;
 	font-size: 1.3em;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 	margin-top: 5px;
+}
+
+.projectDetail a, .projectDetail a:hover, .projectDetail a:visited {
+	font-family: 'Cormorant', serif;
+	color: white;
 }
 
 .projectList ul {
