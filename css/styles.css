@@ -167,7 +167,6 @@ img {
 
 #contact {
   text-align: left;
-  border-top: 1px solid black;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -199,10 +198,6 @@ img {
 }
 
 /* Project Pages */
-
-.projectList {
-	display: none;
-}
 
 .projectDetail {
 	background-color: #34496f;
@@ -249,7 +244,7 @@ img {
 
 .projectList li {
 	font-family: 'Rubik', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 1em;
 	list-style: none;
 	display: inline-block;
@@ -258,7 +253,7 @@ img {
 }
 
 .projectList li a {
-	color: black;
+	color: white;
 	text-decoration: none;
 	padding-right: 20px;
 }
@@ -268,7 +263,12 @@ img {
 }
 
 .projectList li a:visited {
-	color: black;
+	color: white;
+}
+
+#moreProjects { /* this is the background div */
+	background-color: #34496f;
+	padding: 40px 0px;
 }
 
 .moreProjects {
@@ -278,10 +278,11 @@ img {
 
 .moreProjects h2 {
 	font-family: 'Rubik', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 1em;
 	background-color: #F05942;
 	padding: 10px;
 	display: inline-block;
 	margin-bottom: 20px;
+	color: white;
 }
