@@ -30,6 +30,20 @@ img {
   padding-top: 20px;
 }
 
+.banner h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+.banner h1 a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.banner h1 a:visited {
+	color: black;
+}
+
 .banner ul {
   padding: 0px;
 }
@@ -61,7 +75,7 @@ img {
 }
 
 .intro h2 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 2.197em;
 }
 
@@ -82,6 +96,7 @@ img {
   color: white;
 	text-decoration: none;
 }
+
 .projects li a:visited {
   color: white;
 	text-decoration: none;
@@ -190,31 +205,37 @@ img {
 }
 
 .projectDetail {
-	background-color: white;
+	background-color: #34496f;
+	color: white;
+	padding-top: 100px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 5px;
+	height: 60vh;
 }
 
 .projectDetail h2 {
 	font-family: 'Cormorant', serif;
-	font-weight: 500;
-	font-size: 2.197em;
+	font-weight: 400;
+	font-size: 2.856em;
 	margin-bottom: 0px;
 	padding-top: 40px;
-	padding-bottom: 0px;
+	padding-bottom: 10px;
 }
 
 .projectDetail h3 {
-	font-weight: 400;
+	font-weight: 300;
 	margin: 0px 0px;
-	line-height: -50px;
+	font-size: 1.3em;
+	padding-bottom: 10px;
 }
 
 .projectDetail p {
 	font-family: 'Cormorant', serif;
-	font-weight: 400;
-	font-size: 1em;
+	font-weight: 300;
+	font-size: 1.3em;
+	padding-bottom: 50px;
+	margin-top: 5px;
 }
 
 .projectList ul {
@@ -228,6 +249,7 @@ img {
 	list-style: none;
 	display: inline-block;
 	padding-bottom: 15px;
+	margin-left: 20px;
 }
 
 .projectList li a {
@@ -242,6 +264,11 @@ img {
 
 .projectList li a:visited {
 	color: black;
+}
+
+.moreProjects {
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
 .moreProjects h2 {
