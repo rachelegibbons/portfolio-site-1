@@ -15,6 +15,7 @@ img {
 .container {
 	/*outline: 1px solid red;
 	background-color: pink;*/
+	font-family: 'Rubik', sans-serif;
 }
 
 .banner {
@@ -77,28 +78,67 @@ img {
   font-size: 1.3em;
 }
 
+.projects li a {
+  color: white;
+	text-decoration: none;
+}
+.projects li a:visited {
+  color: white;
+	text-decoration: none;
+}
+
 .projectOne {
   background-color: #24324C;
+}
+
+.projectOne:hover {
+	background-color: #34496f;
+	text-decoration: underline;
 }
 
 .projectTwo {
   background-color: #66A2CC;
 }
 
+.projectTwo:hover {
+	background-color: #8cb9d9;
+	text-decoration: underline;
+}
+
 .projectThree {
   background-color: #F05942;
+}
+
+.projectThree:hover {
+  background-color: #f48271;
+	text-decoration: underline;
 }
 
 .projectFour {
   background-color: #A9BCC6;
 }
 
+.projectFour:hover {
+  background-color: #c8d4da;
+	text-decoration: underline;
+}
+
 .projectFive {
   background-color: #945B38;
 }
 
+.projectFive:hover {
+  background-color: #b97246;
+	text-decoration: underline;
+}
+
 .projectSix {
   background-color: #24324C;
+}
+
+.projectSix:hover {
+  background-color: #34496f;
+	text-decoration: underline;
 }
 
 .about {
@@ -136,4 +176,80 @@ img {
 
 #contact li a:hover {
   text-decoration: underline;
+}
+
+#contact li a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+/* Project Pages */
+
+.projectList {
+	display: none;
+}
+
+.projectDetail {
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+
+.projectDetail h2 {
+	font-family: 'Cormorant', serif;
+	font-weight: 500;
+	font-size: 2.197em;
+	margin-bottom: 0px;
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+
+.projectDetail h3 {
+	font-weight: 400;
+	margin: 0px 0px;
+	line-height: -50px;
+}
+
+.projectDetail p {
+	font-family: 'Cormorant', serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.projectList h2 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	background-color: #F05942;
+	padding: 10px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.projectList ul {
+	padding: 0px;
+}
+
+.projectList li {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	list-style: none;
+	display: inline-block;
+	padding-bottom: 15px;
+}
+
+.projectList li a {
+	color: black;
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+.projectList li a:hover {
+	text-decoration: underline;
+}
+
+.projectList li a:visited {
+	color: black;
 }
