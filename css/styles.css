@@ -296,3 +296,16 @@ img {
 #fireflyDetail {
 	background-color: #66A2CC;
 }
+
+/* UNFI */
+
+#unfiDetail {
+	background-color: #F05942;
+}
+
+/* Digital Diagrams */
+
+#diagramsDetail {
+	background-color: #A9BCC6;
+	color: black;
+}
