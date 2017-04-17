@@ -286,3 +286,13 @@ img {
 	margin-bottom: 20px;
 	color: white;
 }
+
+.projectImages img {
+	padding: 40px 0px;
+}
+
+/* Project Firefly */
+
+#fireflyDetail {
+	background-color: #66A2CC;
+}
