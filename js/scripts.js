@@ -1,5 +1,5 @@
-$(document).ready(function(){
-	$(".moreProjects").click(function(){
-			$(".projectList").slideToggle();
-	});
-});
+// $(document).ready(function(){
+// 	$(".moreProjects").click(function(){
+// 			$(".projectList").slideToggle();
+// 	});
+// });

@@ -163,6 +163,8 @@ img {
 .about p {
   font-family: 'Cormorant', sans-serif;
   font-size: 1.69em;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 #contact {
@@ -181,6 +183,7 @@ img {
   padding-right: 10px;
   font-size: 1em;
   font-family: 'Rubik', sans-serif;
+	font-weight: 400;
 }
 
 #contact li a {
@@ -202,10 +205,8 @@ img {
 .projectDetail {
 	background-color: #34496f;
 	color: white;
-	padding-top: 60px;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 5px;
 }
 
 .projectDetail h2 {
@@ -213,7 +214,6 @@ img {
 	font-weight: 400;
 	font-size: 2.856em;
 	margin-bottom: 0px;
-	padding-top: 40px;
 	padding-bottom: 10px;
 }
 
@@ -253,7 +253,7 @@ img {
 }
 
 .projectList li a {
-	color: white;
+	color: black;
 	text-decoration: none;
 	padding-right: 20px;
 }
@@ -263,32 +263,37 @@ img {
 }
 
 .projectList li a:visited {
-	color: white;
+	color: black;
 }
 
 #moreProjects { /* this is the background div */
-	background-color: #34496f;
-	padding: 40px 0px;
+	padding-bottom: 100px;
 }
 
 .moreProjects {
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	margin-left: 20px;
 }
 
 .moreProjects h2 {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Cormorant', serif;
 	font-weight: 300;
-	font-size: 1em;
-	background-color: #F05942;
-	padding: 10px;
+	font-size: 2.856em;
 	display: inline-block;
+	margin-top: 0px;
 	margin-bottom: 20px;
-	color: white;
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+.projectImages {
+	text-align: center;
+	padding: 60px 0px;
 }
 
 .projectImages img {
 	padding: 0px 0px 20px 0px;
+	margin: auto;
 }
 
 /* PECI */
@@ -303,33 +308,89 @@ img {
 
 #fireflyDetail {
 	background-color: #F05942;
-	padding-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 120px;
 }
 
 /* UNFI */
 
 #unfiDetail {
 	background-color: #34496f;
-	padding-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 120px;
 }
 
 /* Digital Diagrams */
 
 #diagramsDetail {
 	background-color: #F05942;
-	padding-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 120px;
 }
 
 /* Code Girl */
 
 #codeGirlDetail {
 	background-color: #34496f;
-	padding-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 120px;
 }
 
 /* Metal Toad Holiday Card */
 
 #holidayCardDetail {
 	background-color: #F05942;
-	padding-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+
+
+
+
+
+/* break points */
+
+@media only screen and (min-device-width: 717px) {
+	.intro h2 {
+	  font-weight: 500;
+	  font-size: 3.713em;
+	}
+
+	#work {
+	 	display: grid;
+	 	grid-template-columns: 100% 100% 100%;
+	 	grid-gap: 0px;
+	}
+
+	.projectOne {
+			grid-column: 1;
+			grid-row: 1;
+	}
+
+	.projectTwo {
+			grid-column: 2;
+			grid-row: 1;
+	}
+
+	.projectThree {
+			grid-column: 3;
+			grid-row: 1;
+	}
+
+	.projectFour {
+			grid-column: 1;
+			grid-row: 2;
+	}
+
+	.projectFive {
+			grid-column: 2;
+			grid-row: 2;
+	}
+
+	.projectSix {
+			grid-column: 3;
+			grid-row: 2;
+	}
+
 }
