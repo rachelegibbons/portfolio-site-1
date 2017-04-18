@@ -66,11 +66,11 @@ img {
 }
 
 .intro {
-  height: 60vh;
-  padding-top: 100px;
   font-family: 'Cormorant', serif;
+	margin-bottom: -15px;
   padding-left: 20px;
-  margin-bottom: -15px;
+	padding-top: 120px;
+	padding-bottom: 200px;
 	padding-right: 20px;
 }
 
@@ -358,34 +358,25 @@ img {
 	  font-size: 3.713em;
 	}
 
-	#work {
+	#work ul {
 	 	display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 300px 300px;
 	 	grid-gap: 0px;
-	}
-
-	.projects li {
-	  list-style: none;
-	  display: block;
-	  padding: 20px 20px 200px 20px;
-	  color: white;
-	  font-family: 'Rubik', sans-serif;
-	  font-size: 1.3em;
 	}
 
 	.projectOne {
 			grid-column: 1;
 			grid-row: 1;
-			padding: 0px 0px;
 	}
 
 	.projectTwo {
-			grid-column: 1;
+			grid-column: 2;
 			grid-row: 1;
 	}
 
 	.projectThree {
-			grid-column: 1;
+			grid-column: 3;
 			grid-row: 1;
 	}
 
@@ -402,6 +393,14 @@ img {
 	.projectSix {
 			grid-column: 3;
 			grid-row: 2;
+	}
+
+	.about {
+	  padding: 100px 20px;
+	}
+
+	.about p {
+	  font-size: 2.197em;
 	}
 
 }
