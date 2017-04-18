@@ -207,6 +207,7 @@ img {
 	color: white;
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-top: 100px;
 }
 
 .projectDetail h2 {
@@ -277,7 +278,7 @@ img {
 
 .moreProjects h2 {
 	font-family: 'Cormorant', serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 2.856em;
 	display: inline-block;
 	margin-top: 0px;
@@ -300,7 +301,7 @@ img {
 
 #peciDetail {
 	background-color: #34496f;
-	padding-bottom: 100px;
+	padding-bottom: 120px;
 }
 
 
@@ -401,6 +402,26 @@ img {
 
 	.about p {
 	  font-size: 2.197em;
+	}
+
+	.projectDetail {
+		background-color: #34496f;
+		color: white;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 100px;
+	}
+
+	.projectDetail h2 {
+		font-size: 3.713em;
+	}
+
+	.projectDetail h3 {
+		font-size: 1.69em;
+	}
+
+	.projectDetail p {
+		font-size: 1.69em;
 	}
 
 }
