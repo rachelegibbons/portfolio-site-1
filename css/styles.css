@@ -486,3 +486,13 @@ img {
 	}
 
 }
+
+@media only screen and (min-width: 1330px) {
+
+	.intro h2 {
+	  font-weight: 500;
+	  font-size: 6.275em;
+		height: 30vh;
+		padding-top: 30px;
+
+}
