@@ -70,12 +70,9 @@ img {
   font-family: 'Cormorant', serif;
 	margin-bottom: -15px;
   padding-left: 20px;
-<<<<<<< HEAD
   margin-bottom: -15px;
-=======
 	padding-top: 120px;
 	padding-bottom: 200px;
->>>>>>> gh-pages
 	padding-right: 20px;
 }
 
@@ -411,7 +408,6 @@ img {
 
 	.about {
 		padding: 70px 40px 100px 40px;
-		height: 60vh;
 	}
 
 	.about p {
@@ -425,9 +421,9 @@ img {
 		background-color: #34496f;
 		color: white;
 		padding-left: 20px;
-		padding-right: 20px;
-		padding-top: 150px;
-		height: 60vh;
+		padding-right: 400px;
+		padding-top: 100px;
+		padding-bottom: 100px;
 	}
 
 	.projectDetail h2 {
@@ -487,6 +483,22 @@ img {
 
 	.projectList li {
 		display: block;
+	}
+
+}
+
+@media only screen and (min-width: 1300px) {
+
+	.banner {
+		padding-left: 60px;
+		padding-top: 20px;
+	}
+	.intro {
+		padding: 40px 60px 300px 60px;
+	}
+	.intro h2 {
+		padding-top: 0px;
+		font-size: 6.275em;
 	}
 
 }
