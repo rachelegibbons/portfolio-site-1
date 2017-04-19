@@ -494,6 +494,8 @@ img {
 	  font-size: 6.275em;
 		height: 30vh;
 		padding-top: 30px;
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 
 	.about p {
