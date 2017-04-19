@@ -428,12 +428,6 @@ img {
 		font-size: 1.69em;
 	}
 
-	#cssContainer {
-		display: grid;
-		grid-template-columns: 20% 80%;
-		grid-gap: 40px;
-	}
-
 	.moreProjects h2 {
 		padding-top: 60px;
 		padding-bottom: 0px;
@@ -442,6 +436,15 @@ img {
 		font-size: 1.69em;
 	}
 
+}
+
+@media only screen and (min-width: 1053px) {
+
+	#cssContainer {
+		display: grid;
+		grid-template-columns: 20% 80%;
+		grid-gap: 40px;
+	}
 
 	.projectList ul li {
 		grid-column: 1;
