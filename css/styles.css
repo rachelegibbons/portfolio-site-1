@@ -9,6 +9,7 @@ body {
 /* Setup images to be flexible filling the space available. */
 img {
 	max-width: 100%;
+	display: block;
 }
 
 /* Setup my wrapper so I can see it */
@@ -255,6 +256,7 @@ img {
 
 .projectList li a {
 	color: black;
+	font-weight: 400;
 	text-decoration: none;
 	padding-right: 20px;
 }
@@ -352,7 +354,7 @@ img {
 
 /* break points */
 
-@media only screen and (min-device-width: 717px) {
+@media only screen and (min-width: 717px) {
 
 	.intro h2 {
 	  font-weight: 500;
@@ -404,6 +406,8 @@ img {
 	  font-size: 2.197em;
 	}
 
+	/* Project Pages */
+
 	.projectDetail {
 		background-color: #34496f;
 		color: white;
@@ -422,6 +426,45 @@ img {
 
 	.projectDetail p {
 		font-size: 1.69em;
+	}
+
+	#cssContainer {
+		display: grid;
+		grid-template-columns: 20% 80%;
+		grid-gap: 40px;
+	}
+
+	.moreProjects h2 {
+		padding-top: 60px;
+		padding-bottom: 0px;
+		border-bottom: 1px solid black;
+		margin-bottom: 10px;
+		font-size: 1.69em;
+	}
+
+
+	.projectList ul li {
+		grid-column: 1;
+		grid-row: 1;
+		font-size: 1em;
+	}
+
+	.projectList ul li a {
+		font-weight: 300;
+	}
+
+	.projectImages {
+		grid-column: 2;
+		grid-row: 1;
+	}
+
+	.projectImages img {
+		max-width: 700px;
+		display: block;
+	}
+
+	.projectList li {
+		display: block;
 	}
 
 }
