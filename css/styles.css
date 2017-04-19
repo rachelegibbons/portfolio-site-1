@@ -9,12 +9,14 @@ body {
 /* Setup images to be flexible filling the space available. */
 img {
 	max-width: 100%;
+	display: block;
 }
 
 /* Setup my wrapper so I can see it */
 .container {
 	/*outline: 1px solid red;
 	background-color: pink;*/
+	font-family: 'Rubik', sans-serif;
 }
 
 .banner {
@@ -27,6 +29,20 @@ img {
   font-size: 1em;
   margin-top: 0px;
   padding-top: 20px;
+}
+
+.banner h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+.banner h1 a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.banner h1 a:visited {
+	color: black;
 }
 
 .banner ul {
@@ -51,16 +67,20 @@ img {
 }
 
 .intro {
-  height: 60vh;
-  padding-top: 100px;
   font-family: 'Cormorant', serif;
+	margin-bottom: -15px;
   padding-left: 20px;
+<<<<<<< HEAD
   margin-bottom: -15px;
+=======
+	padding-top: 120px;
+	padding-bottom: 200px;
+>>>>>>> gh-pages
 	padding-right: 20px;
 }
 
 .intro h2 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 2.197em;
 }
 
@@ -77,28 +97,68 @@ img {
   font-size: 1.3em;
 }
 
+.projects li a {
+  color: white;
+	text-decoration: none;
+}
+
+.projects li a:visited {
+  color: white;
+	text-decoration: none;
+}
+
 .projectOne {
   background-color: #24324C;
+}
+
+.projectOne:hover {
+	background-color: #34496f;
+	text-decoration: underline;
 }
 
 .projectTwo {
   background-color: #66A2CC;
 }
 
+.projectTwo:hover {
+	background-color: #8cb9d9;
+	text-decoration: underline;
+}
+
 .projectThree {
   background-color: #F05942;
+}
+
+.projectThree:hover {
+  background-color: #f48271;
+	text-decoration: underline;
 }
 
 .projectFour {
   background-color: #A9BCC6;
 }
 
+.projectFour:hover {
+  background-color: #c8d4da;
+	text-decoration: underline;
+}
+
 .projectFive {
   background-color: #945B38;
 }
 
+.projectFive:hover {
+  background-color: #b97246;
+	text-decoration: underline;
+}
+
 .projectSix {
   background-color: #24324C;
+}
+
+.projectSix:hover {
+  background-color: #34496f;
+	text-decoration: underline;
 }
 
 .about {
@@ -108,11 +168,17 @@ img {
 .about p {
   font-family: 'Cormorant', sans-serif;
   font-size: 1.69em;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	line-height: 38px;
+}
+
+.aboutIntro {
+	font-weight: 600;
 }
 
 #contact {
   text-align: left;
-  border-top: 1px solid black;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -127,6 +193,7 @@ img {
   padding-right: 10px;
   font-size: 1em;
   font-family: 'Rubik', sans-serif;
+	font-weight: 400;
 }
 
 #contact li a {
@@ -136,4 +203,346 @@ img {
 
 #contact li a:hover {
   text-decoration: underline;
+}
+
+#contact li a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+/* Project Pages */
+
+.projectDetail {
+	background-color: #34496f;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 100px;
+}
+
+.projectDetail h2 {
+	font-family: 'Cormorant', serif;
+	font-weight: 400;
+	font-size: 2.856em;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+
+.projectDetail h3 {
+	font-weight: 300;
+	margin: 0px 0px;
+	font-size: 1.3em;
+	padding-bottom: 10px;
+}
+
+.projectDetail p {
+	font-family: 'Cormorant', serif;
+	font-weight: 300;
+	font-size: 1.3em;
+	padding-bottom: 0px;
+	margin-top: 5px;
+}
+
+.projectDetail a, .projectDetail a:hover, .projectDetail a:visited {
+	font-family: 'Cormorant', serif;
+	color: white;
+	padding-bottom: 100px;
+}
+
+.projectList ul {
+	padding: 0px;
+}
+
+.projectList li {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	list-style: none;
+	display: inline-block;
+	padding-bottom: 15px;
+	margin-left: 20px;
+}
+
+.projectList li a {
+	color: black;
+	font-weight: 400;
+	text-decoration: none;
+	padding-right: 20px;
+}
+
+.projectList li a:hover {
+	text-decoration: underline;
+}
+
+.projectList li a:visited {
+	color: black;
+}
+
+#moreProjects { /* this is the background div */
+	padding-bottom: 100px;
+}
+
+.moreProjects {
+	/*margin-top: 20px;*/
+	margin-left: 20px;
+}
+
+.moreProjects h2 {
+	font-family: 'Cormorant', serif;
+	font-weight: 400;
+	font-size: 2.856em;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+.projectImages {
+	text-align: center;
+	padding: 60px 0px;
+}
+
+.projectImages img {
+	padding: 0px 0px 20px 0px;
+	margin: auto;
+}
+
+/* PECI */
+
+#peciDetail {
+	background-color: #34496f;
+	padding-bottom: 120px;
+}
+
+
+/* Project Firefly */
+
+#fireflyDetail {
+	background-color: #F05942;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+/* UNFI */
+
+#unfiDetail {
+	background-color: #34496f;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+/* Digital Diagrams */
+
+#diagramsDetail {
+	background-color: #F05942;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+/* Code Girl */
+
+#codeGirlDetail {
+	background-color: #34496f;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+/* Metal Toad Holiday Card */
+
+#holidayCardDetail {
+	background-color: #F05942;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+
+
+
+
+
+/* break points */
+
+@media only screen and (min-width: 717px) {
+
+	.intro h2 {
+	  font-weight: 500;
+	  font-size: 3.713em;
+		height: 30vh;
+		padding-top: 30px;
+	}
+
+	#work ul {
+	 	display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 300px 300px;
+	 	grid-gap: 0px;
+	}
+
+	.projectOne {
+			grid-column: 1;
+			grid-row: 1;
+	}
+
+	.projectTwo {
+			grid-column: 2;
+			grid-row: 1;
+	}
+
+	.projectThree {
+			grid-column: 3;
+			grid-row: 1;
+	}
+
+	.projectFour {
+			grid-column: 1;
+			grid-row: 2;
+	}
+
+	.projectFive {
+			grid-column: 2;
+			grid-row: 2;
+	}
+
+	.projectSix {
+			grid-column: 3;
+			grid-row: 2;
+	}
+
+	.about {
+		padding: 70px 40px 100px 40px;
+		height: 60vh;
+	}
+
+	.about p {
+	  font-size: 2.197em;
+		line-height: 50px;
+	}
+
+	/* Project Pages */
+
+	.projectDetail {
+		background-color: #34496f;
+		color: white;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 150px;
+		height: 60vh;
+	}
+
+	.projectDetail h2 {
+		font-size: 3.713em;
+		padding: 0px 20px;
+	}
+
+	.projectDetail h3 {
+		font-size: 1.69em;
+		padding: 0px 20px;
+	}
+
+	.projectDetail p {
+		font-size: 1.69em;
+		padding: 0px 20px;
+		font-weight: 300;
+		padding-top: 20px;
+	}
+
+	.moreProjects h2 {
+		padding-top: 60px;
+		padding-bottom: 0px;
+		border-bottom: 1px solid black;
+		margin-bottom: 10px;
+		font-size: 1.69em;
+	}
+
+}
+
+@media only screen and (min-width: 1053px) {
+
+	#cssContainer {
+		display: grid;
+		grid-template-columns: 20% 1fr;
+		grid-gap: 40px;
+	}
+
+	.projectList ul li {
+		grid-column: 1;
+		grid-row: 1;
+		font-size: 1em;
+	}
+
+	.projectList ul li a {
+		font-weight: 300;
+	}
+
+	.projectImages {
+		grid-column: 2;
+		grid-row: 1;
+	}
+
+	.projectImages img {
+		max-width: 700px;
+		display: block;
+	}
+
+	.projectList li {
+		display: block;
+	}
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+	.banner {
+		padding-left: 40px;
+	}
+
+	.banner h1  {
+		padding-left: 40px;
+	}
+
+	.banner ul {
+	  padding-left: 40px;
+	}
+
+	.intro h2 {
+	  font-weight: 500;
+	  font-size: 6.275em;
+		height: 30vh;
+		padding-top: 30px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.about p {
+		font-size: 2.856em;
+		line-height: 70px;
+	}
+
+	.projectDetail {
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-top: 150px;
+		height: 60vh;
+	}
+
+	.projectDetail h2 {
+		font-size: 4.827em;
+		padding: 0px 40px;
+	}
+
+	.projectDetail h3 {
+		font-size: 2.197em;
+		padding: 0px 40px;
+	}
+
+	.projectDetail p {
+		font-size: 2.197em;
+		padding: 0px 20px;
+		font-weight: 300;
+		padding-top: 20px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
 }
