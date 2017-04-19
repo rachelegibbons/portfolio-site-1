@@ -166,6 +166,11 @@ img {
   font-size: 1.69em;
 	padding-top: 60px;
 	padding-bottom: 60px;
+	line-height: 38px;
+}
+
+.aboutIntro {
+	font-weight: 600;
 }
 
 #contact {
@@ -359,6 +364,8 @@ img {
 	.intro h2 {
 	  font-weight: 500;
 	  font-size: 3.713em;
+		height: 30vh;
+		padding-top: 30px;
 	}
 
 	#work ul {
@@ -399,11 +406,13 @@ img {
 	}
 
 	.about {
-	  padding: 100px 20px;
+	  padding: 100px 40px;
+		height: 60vh;
 	}
 
 	.about p {
 	  font-size: 2.197em;
+		line-height: 50px;
 	}
 
 	/* Project Pages */
@@ -413,19 +422,25 @@ img {
 		color: white;
 		padding-left: 20px;
 		padding-right: 20px;
-		padding-top: 100px;
+		padding-top: 150px;
+		height: 60vh;
 	}
 
 	.projectDetail h2 {
 		font-size: 3.713em;
+		padding: 0px 20px;
 	}
 
 	.projectDetail h3 {
 		font-size: 1.69em;
+		padding: 0px 20px;
 	}
 
 	.projectDetail p {
 		font-size: 1.69em;
+		padding: 0px 20px;
+		font-weight: 300;
+		padding-top: 20px;
 	}
 
 	.moreProjects h2 {
@@ -442,7 +457,7 @@ img {
 
 	#cssContainer {
 		display: grid;
-		grid-template-columns: 20% 80%;
+		grid-template-columns: 20% 1fr;
 		grid-gap: 40px;
 	}
 
