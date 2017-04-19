@@ -505,12 +505,12 @@ img {
 
 	.projectDetail h2 {
 		font-size: 4.827em;
-		padding: 0px 20px;
+		padding: 0px 40px;
 	}
 
 	.projectDetail h3 {
 		font-size: 2.197em;
-		padding: 0px 20px;
+		padding: 0px 40px;
 	}
 
 	.projectDetail p {
@@ -518,6 +518,8 @@ img {
 		padding: 0px 20px;
 		font-weight: 300;
 		padding-top: 20px;
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 
 }
