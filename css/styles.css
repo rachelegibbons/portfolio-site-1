@@ -501,6 +501,26 @@ img {
 		font-size: 6.275em;
 	}
 
+	.about {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.contact {
+		margin-left: 100px;
+	}
+
+	/* Project pages */
+
+	.projectDetail {
+		padding-left: 40px;
+	}
+
+	#moreProjects {
+		padding-left: 40px;
+	}
+
+
 }
 
 @media only screen and (min-width: 1500px) {
@@ -520,8 +540,7 @@ img {
 	.intro h2 {
 	  font-weight: 500;
 	  font-size: 6.275em;
-		height: 30vh;
-		padding-top: 30px;
+		padding-top: 100px;
 		padding-left: 40px;
 		padding-right: 40px;
 	}
@@ -535,7 +554,6 @@ img {
 		padding-left: 40px;
 		padding-right: 40px;
 		padding-top: 150px;
-		height: 60vh;
 	}
 
 	.projectDetail h2 {
@@ -555,6 +573,18 @@ img {
 		padding-top: 20px;
 		padding-left: 40px;
 		padding-right: 40px;
+	}
+
+	#peciDetail {
+		padding-bottom: 200px;
+	}
+
+	#fireflyDetail {
+		padding-bottom: 200px;
+	}
+
+	#unfiDetail {
+		padding-bottom: 200px;
 	}
 
 }
