@@ -494,5 +494,30 @@ img {
 	  font-size: 6.275em;
 		height: 30vh;
 		padding-top: 30px;
+	}
+
+	.projectDetail {
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-top: 150px;
+		height: 60vh;
+	}
+
+	.projectDetail h2 {
+		font-size: 4.827em;
+		padding: 0px 20px;
+	}
+
+	.projectDetail h3 {
+		font-size: 2.197em;
+		padding: 0px 20px;
+	}
+
+	.projectDetail p {
+		font-size: 2.197em;
+		padding: 0px 20px;
+		font-weight: 300;
+		padding-top: 20px;
+	}
 
 }
