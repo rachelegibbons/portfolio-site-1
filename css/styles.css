@@ -353,6 +353,62 @@ img {
 	padding-bottom: 120px;
 }
 
+/* Resume */
+
+.left, .experience {
+	padding-left: 20px;
+}
+
+.education h2, .skills h2, .tools h2, .experience h2 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.3em;
+	font-weight: 400;
+	margin: 0px 0px;
+	padding-bottom: 5px;
+}
+
+.education p, .skills p, .tools p, .experience p {
+	font-family: 'Cormorant', serif;
+	font-size: 1.1em;
+	margin: 0px 0px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	line-height: 25px;
+}
+
+.education p a, .skills p a, .tools p a, .experience p a {
+	color: black;
+}
+
+.education p a:visited, .skills p a:visited, .tools p a:visited, .experience p a:visited {
+	color: black;
+}
+
+.education {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.expDetail {
+	padding-bottom: 20px;
+}
+
+.college {
+	font-weight: 700;
+}
+
+.skills {
+	padding-bottom: 20px;
+}
+
+.experience {
+	padding-top: 20px;
+}
+
+.title {
+	font-weight: 700;
+}
+
 
 
 
@@ -451,6 +507,15 @@ img {
 		font-size: 1.69em;
 	}
 
+	/* Resume */
+
+	#resumeCssGrid {
+		display: grid;
+		grid-template-columns: 2fr 3fr;
+		grid-gap: 1fr;
+	}
+
+
 }
 
 @media only screen and (min-width: 1053px) {
@@ -520,6 +585,23 @@ img {
 		padding-left: 40px;
 	}
 
+	/* Resume */
+
+	.left {
+		padding-left: 60px;
+		padding-top: 60px;
+		padding-right: 200px;
+	}
+
+	.experience {
+		padding-top: 80px;
+		padding-right: 200px;
+	}
+
+	#resumeCssGrid {
+		display: grid;
+		grid-template-columns: 5fr 7fr;
+	}
 
 }
 
