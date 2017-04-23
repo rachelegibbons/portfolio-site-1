@@ -141,7 +141,7 @@ img {
 }
 
 .projectFive {
-  background-color: #945B38;
+  background-color: #A9BCC6;
 }
 
 .projectFive:hover {
@@ -280,7 +280,6 @@ img {
 }
 
 .moreProjects {
-	/*margin-top: 20px;*/
 	margin-left: 20px;
 }
 
@@ -393,7 +392,7 @@ img {
 	padding-bottom: 20px;
 }
 
-.college {
+.college, .title {
 	font-weight: 700;
 }
 
@@ -405,10 +404,43 @@ img {
 	padding-top: 20px;
 }
 
-.title {
-	font-weight: 700;
+
+/* Books */
+
+#books {
+	color: black;
+	background-color: white;
 }
 
+
+#booksGrid img {
+	max-height: 300px;
+	align-items: baseline;
+}
+
+.bookOne, .bookTwo, .bookThree, .bookFour, .bookFive {
+	margin: 0px;
+	padding-top: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.bookOne h3, .bookTwo h3, .bookThree h3, .bookFour h3, .bookFive h3 {
+	margin-bottom: 5px;
+}
+
+.bookOne p, .bookTwo p, .bookThree p, .bookFour p, .bookFive p {
+	font-size: 1.3em;
+	font-family: 'Cormorant', serif;
+	margin: 0px 0px;
+}
+
+.bookOne img, .bookTwo img, .bookThree img, .bookFour img, .bookFive img {
+	max-height: 300px;
+	margin: auto;
+	vertical-align: baseline;
+}
 
 
 
@@ -476,7 +508,7 @@ img {
 	.projectDetail {
 		background-color: #34496f;
 		color: white;
-		padding-left: 20px;
+		padding-left: 0px;
 		padding-right: 400px;
 		padding-top: 100px;
 		padding-bottom: 100px;
@@ -515,6 +547,41 @@ img {
 		grid-gap: 1fr;
 	}
 
+/* Books */
+
+	#booksGrid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 500px 500px;
+		grid-gap: auto;
+	}
+
+
+	.bookOne {
+		grid-column: 1;
+		grid-row: 1;
+	}
+
+	.bookTwo {
+		grid-column: 2;
+		grid-row: 1;
+	}
+
+	.bookThree {
+		grid-column: 3;
+		grid-row: 1;
+	}
+
+	.bookFour {
+		grid-column: 4;
+		grid-row: 1;
+	}
+
+	.bookFive {
+		grid-column: 5;
+		grid-row: 1;
+	}
+
 
 }
 
@@ -549,6 +616,7 @@ img {
 	.projectList li {
 		display: block;
 	}
+
 
 }
 
@@ -601,6 +669,18 @@ img {
 	#resumeCssGrid {
 		display: grid;
 		grid-template-columns: 5fr 7fr;
+	}
+
+	/* Books */
+
+	.booksIntro {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
+	#booksGrid {
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 
 }
