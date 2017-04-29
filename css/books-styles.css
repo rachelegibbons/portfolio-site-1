@@ -27,6 +27,7 @@ body {
 .booksGrid img {
 	max-width: 80%;
 }
+
 .booksGrid a {
 	padding-right: 1em; /* chimero magic */
 	color: black;
@@ -38,7 +39,7 @@ body {
 }
 
 .booksGrid small {
-	display: block; /* deafults to `inline`. this is making sure the author is on its own line without having to add a `<br>` before it. */
+	display: block;
 	padding-bottom: 60px;
 	color: #555;
 
