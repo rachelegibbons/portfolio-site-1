@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box; /* make all the browser use the same box model so that layout is predictable */
+}
+
+body {
+	/*background-color: pink; /* help visualize */
+	margin: 0; /* help visualize */
+	padding: 1em; /* help visualize */
+}
+
+.booksGrid {
+	background-color: white; /* help visualize */
+
+	display: flex; /* set us up for the magic to come. */
+	flex-wrap: wrap; /* make list-items wrap from row to row */
+	align-items: baseline; /* The Chimero Magic™. The baseline of each list-item is starting at the bottom of that item’s image. Because each image is a different hieght, the height of the each item’s first-line are different. Normally, the list-items would align to the top-edge of the parent--their tops would all align which you can see by removing this rule. So `align-items` is the magic. */
+	list-style-type: none; /* remove the list-markers (bullets) */
+	padding-left: 20px; /* remove default list indent *//
+}
+
+.booksGrid li {
+	outline: 1px solid red; /* help visualize */
+	width: calc(100% / 4); /* This could be set as 33.3333% to more braodly support browsers. Chimero changes this using media-queries to adjust how many list-items per-row. */
+  padding-right: 40px;
+}
+
+.booksGrid img {
+	max-width: 100%; /* This is not default, but since RWD emerged as best practice, this has basically become a de facto default. In this case, without it, the images would force the list-items open and upset the nice tidy order of the equally divided width we set on the list-item (the 33.3333%). */
+}
+.booksGrid a {
+	background-color: lightgreen; /* help visualize */
+	padding-right: 1em; /* Chimero Magic. Turns out this is what is pushing the title to the second-line. Interesting, its sort of fiddly value. Thre is this idea of magic  */
+}
+
+.booksGrid small {
+	display: block; /* deafults to `inline`. this is making sure the author is on its own line without having to add a `<br>` before it. */
+}

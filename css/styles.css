@@ -353,7 +353,11 @@ img {
 	padding-bottom: 120px;
 }
 
-
+#booksDetail {
+	background-color: white;
+	color: black;
+	padding-right: 40px;
+}
 
 
 
