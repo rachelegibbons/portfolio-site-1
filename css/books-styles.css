@@ -20,7 +20,7 @@ body {
 
 .booksGrid li {
 	outline: 1px solid white; /* help visualize */
-	width: calc(100% / 3); /* This could be set as 33.3333% to more braodly support browsers. Chimero changes this using media-queries to adjust how many list-items per-row. */
+	width: calc(100% / 2); /* This could be set as 33.3333% to more braodly support browsers. Chimero changes this using media-queries to adjust how many list-items per-row. */
   padding-right: 40px;
 }
 
@@ -42,4 +42,21 @@ body {
 	padding-bottom: 60px;
 	color: #555;
 
+}
+
+@media only screen and (min-width: 717px) {
+
+	.booksGrid li {
+		width: calc(100% / 3);
+	}
+
+}
+
+@media only screen and (min-width: 1053px) {
+
+	.booksGrid {
+		padding-left: 40px;
+	}
+	.booksGrid li {
+		width: calc(100% / 4);
 }
