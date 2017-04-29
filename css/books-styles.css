@@ -20,16 +20,15 @@ body {
 
 .booksGrid li {
 	outline: 1px solid white; /* help visualize */
-	width: calc(100% / 4); /* This could be set as 33.3333% to more braodly support browsers. Chimero changes this using media-queries to adjust how many list-items per-row. */
+	width: calc(100% / 3); /* This could be set as 33.3333% to more braodly support browsers. Chimero changes this using media-queries to adjust how many list-items per-row. */
   padding-right: 40px;
 }
 
 .booksGrid img {
-	max-width: 80%; /* This is not default, but since RWD emerged as best practice, this has basically become a de facto default. In this case, without it, the images would force the list-items open and upset the nice tidy order of the equally divided width we set on the list-item (the 33.3333%). */
+	max-width: 80%;
 }
 .booksGrid a {
-	/*background-color: lightgreen; /* help visualize */*/
-	padding-right: 1em; /* Chimero Magic. Turns out this is what is pushing the title to the second-line. Interesting, its sort of fiddly value. Thre is this idea of magic  */
+	padding-right: 1em; /* chimero magic */
 	color: black;
 	text-decoration: none;
 }
